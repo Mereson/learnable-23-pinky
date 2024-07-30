@@ -1,3 +1,4 @@
+import { demolmage } from "../../assets";
 import { Navbar } from "../../components";
 import styles from "./styles.module.css";
 
@@ -5,6 +6,7 @@ export const Home = () => {
 	return (
 		<div className={styles.container}>
 			<Navbar />
+			<img src={demolmage} alt="demoimage" className={styles.pageImg} />
 			<h1>Home</h1>
 			Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
 			deleniti rerum facilis iste blanditiis mollitia soluta quos alias,
