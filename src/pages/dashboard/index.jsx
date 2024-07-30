@@ -1,8 +1,10 @@
+import { Navbar } from "../../components";
 import styles from "./styles.module.css";
 
 export const Dashboard = () => {
 	return (
 		<div className={styles.container}>
+			<Navbar />
 			<h1>Dashboard</h1>
 			Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
 			deleniti rerum facilis iste blanditiis mollitia soluta quos alias,

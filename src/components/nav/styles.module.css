@@ -1,0 +1,7 @@
+.container ul {
+	display: flex;
+	gap: 10px;
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
